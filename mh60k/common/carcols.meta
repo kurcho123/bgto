@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+<CVehicleModelInfoVarGlobal>
+  <Kits>
+	<Item>
+      <kitName>883_mh60k_modkit</kitName>
+      <id value="883" />
+      <kitType>MKT_SPECIAL</kitType>
+      <visibleMods>
+       <Item>
+          <modelName>mh60k_outriggers</modelName>
+          <modShopLabel>WT_OUTRIG</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+		    		<Item>mod_a</Item>
+          </turnOffBones>
+          <type>VMT_ROOF</type>
+          <bone>chassis</bone>
+          <collisionBone>mod_col_3</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="500" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60k_weapons</modelName>
+          <modShopLabel>WT_MH60WEPS</modShopLabel>
+          <linkedModels>
+		    		<Item>mh60k_outriggers2</Item>
+					<Item>mh60k_ammobox</Item>
+          </linkedModels>
+          <turnOffBones>
+		    		<Item>mod_a</Item>
+          </turnOffBones>
+          <type>VMT_ROOF</type>
+          <bone>chassis</bone>
+          <collisionBone>mod_col_4</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="500" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		<Item>
+          <modelName>ah60k_kit</modelName>
+          <modShopLabel>WT_AH60</modShopLabel>
+          <linkedModels>
+		    		<Item>ah60k_weapons</Item>
+          </linkedModels>
+          <turnOffBones />
+          <type>VMT_ROOF</type>
+          <bone>chassis</bone>
+          <collisionBone>mod_col_1</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+        </Item>
+		<Item>
+          <modelName>mh60l_kit</modelName>
+          <modShopLabel>WT_MH60</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+		    		<Item>mod_n</Item>
+          </turnOffBones>
+          <type>VMT_SPOILER</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60_internaltank</modelName>
+          <modShopLabel>WT_INTTANK</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+		    		<Item>mod_s</Item>
+          </turnOffBones>
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60k_ewr</modelName>
+          <modShopLabel>WT_EWR</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60k_antenna</modelName>
+          <modShopLabel>WT_60ANTENNA</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_SKIRT</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60m_antenna</modelName>
+          <modShopLabel>WT_60MANTENNA</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_SKIRT</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60_refuel</modelName>
+          <modShopLabel>WT_MHREFUEL</modShopLabel>
+          <linkedModels>
+		    		<Item>mh60_refuele</Item>
+          </linkedModels>
+          <turnOffBones />
+          <type>VMT_BONNET</type>
+          <bone>chassis</bone>
+          <collisionBone>mod_col_2</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60_ropeattach</modelName>
+          <modShopLabel>WT_ROPEAT</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60_ropeattach</modelName>
+          <modShopLabel>WT_ROPEAT2</modShopLabel>
+          <linkedModels>
+		    		<Item>mh60_rope</Item>
+          </linkedModels>
+          <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60_ropeattach</modelName>
+          <modShopLabel>WT_INTROPE</modShopLabel>
+          <linkedModels>
+		    		<Item>mh60_internaltank</Item>
+					<Item>mh60_rope</Item>
+          </linkedModels>
+          <turnOffBones>
+		    		<Item>mod_s</Item>
+          </turnOffBones>
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60_ltape1</modelName>
+          <modShopLabel>WT_TAPE1</modShopLabel>
+          <linkedModels>
+		    		<Item>mh60_rtape1</Item>
+          </linkedModels>
+          <turnOffBones />
+          <type>VMT_CHASSIS</type>
+          <bone>mod_l</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60_ltape2</modelName>
+          <modShopLabel>WT_TAPE2</modShopLabel>
+          <linkedModels>
+		    		<Item>mh60_rtape2</Item>
+          </linkedModels>
+          <turnOffBones />
+          <type>VMT_CHASSIS</type>
+          <bone>mod_l</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60_ues</modelName>
+          <modShopLabel>WT_MH60UES</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+		    		<Item>mod_f</Item>
+          </turnOffBones>
+          <type>VMT_GRILL</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+      </visibleMods>
+	  <linkMods>
+		<Item>
+          <modelName>mh60_refuel</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60_refuele</modelName>
+          <bone>mod_q</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60_rope</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60_rtape1</modelName>
+          <bone>mod_r</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60_rtape2</modelName>
+          <bone>mod_r</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60_internaltank</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60k_ammobox</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60l_kit</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60k_outriggers</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60k_outriggers2</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60k_weapons</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>ah60k_weapons</modelName>
+          <bone>mod_w</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60k_ewr</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60k_antenna</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	  </linkMods>
+      <slotNames>      
+        <Item>
+          <slot>VMT_SPOILER</slot>
+          <name>WT_MHKIT</name>
+        </Item>
+		<Item>
+          <slot>VMT_GRILL</slot>
+          <name>WT_MH60UES</name>
+        </Item>
+		<Item>
+          <slot>VMT_CHASSIS</slot>
+          <name>WT_WTAPE</name>
+        </Item>
+		<Item>
+          <slot>VMT_ROOF</slot>
+          <name>WT_MH60LOAD</name>
+        </Item>
+		<Item>
+          <slot>VMT_BUMPER_F</slot>
+          <name>WT_MHINT</name>
+        </Item>
+		<Item>
+          <slot>VMT_BUMPER_R</slot>
+          <name>WT_EWR</name>
+        </Item>
+		<Item>
+          <slot>VMT_SKIRT</slot>
+          <name>WT_MHANT</name>
+        </Item>
+		<Item>
+          <slot>VMT_BONNET</slot>
+          <name>WT_MHREFUEL</name>
+        </Item>
+      </slotNames>
+      <statMods>
+        <Item>
+          <identifier />
+          <modifier value="25" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="50" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="75" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="25" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="65" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="20" />
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="40" />
+          <audioApply value="1.000000" />
+          <weight value="10" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="60" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="80" />
+          <audioApply value="1.000000" />
+          <weight value="30" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="40" />
+          <type>VMT_ARMOUR</type>
+        </Item>  
+      </statMods>
+      <slotNames>      
+        <Item>
+          <slot>VMT_SPOILER</slot>
+          <name>WT_MHKIT</name>
+        </Item>
+		<Item>
+          <slot>VMT_GRILL</slot>
+          <name>WT_MH60UES</name>
+        </Item>
+		<Item>
+          <slot>VMT_CHASSIS</slot>
+          <name>WT_WTAPE</name>
+        </Item>
+		<Item>
+          <slot>VMT_ROOF</slot>
+          <name>WT_MH60LOAD</name>
+        </Item>
+		<Item>
+          <slot>VMT_BUMPER_F</slot>
+          <name>WT_MHINT</name>
+        </Item>
+		<Item>
+          <slot>VMT_BUMPER_R</slot>
+          <name>WT_EWR</name>
+        </Item>
+		<Item>
+          <slot>VMT_SKIRT</slot>
+          <name>WT_MHANT</name>
+        </Item>
+		<Item>
+          <slot>VMT_BONNET</slot>
+          <name>WT_MHREFUEL</name>
+        </Item>
+      </slotNames>
+      <liveryNames />
+    </Item>
+  </Kits> 
+    <Lights />
+</CVehicleModelInfoVarGlobal>
